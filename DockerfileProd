@@ -1,2 +1,2 @@
-FROM  --platform=linux/amd64 httpd:latest
+FROM  --public.ecr.aws/docker/library/httpd:2.4
 COPY .  /usr/local/apache2/htdocs/
